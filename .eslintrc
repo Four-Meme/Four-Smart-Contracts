@@ -1,0 +1,6 @@
+{
+  "extends": "@fourmeme/eslint-config-four",
+  "rules": {
+    "import/no-extraneous-dependencies": 0
+  }
+}
