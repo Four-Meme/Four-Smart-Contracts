@@ -12,9 +12,6 @@ contract uniV3GasTest is Test {
     uint256 public totalSupply;
     address public owner;
     address public tokenAddress;
-	
-	// Launch test token address: ###
-
 	// The address of the token contract will be set after the contract is deployed
 	// and the transaction is mined. The contract address can be accessed once the
 	// deployment process is complete, and it will be used to interact with the token.
@@ -134,7 +131,7 @@ contract uniV3GasTest is Test {
             emit log_named_decimal_uint("get token", bot_gas.balanceOf(address(this)), 18);
             emit log_named_decimal_uint("mCap", bot_gas.mCap(), 18);
         }
-
+	// DEV ADDRESS: 0xDd536357c606413C488F2Af8793173C9a5507902
         {
             emit log_string("buy with 0.1 bnb ...");
             uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(1e17);
@@ -156,7 +153,7 @@ contract uniV3GasTest is Test {
             emit log_named_decimal_uint("get token", bot_gas.balanceOf(address(this)), 18);
             emit log_named_decimal_uint("mCap", bot_gas.mCap(), 18);
         }
-
+	
         {
             emit log_string("sell ...");
             uint256 bnbResult = bot_gas.calPresaleSwapTokenForbnb(bot_gas.balanceOf(address(this)));
