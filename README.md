@@ -1,13 +1,10 @@
 <h1 align="center">
   <a href="https://github.com/Four-Meme/Four-Smart-Contracts">
-    <img src="https://public.bnbstatic.com/image/pgc/202406/50947a991ea98351426fba640f5e541c.jpg" alt="Logo" width="125" height="125">
+    <img src="https://i.imgur.com/2tSI1uX.jpeg" alt="Logo" width="250" height="250">
   </a>
 </h1>
 
 <div align="center">
-  Four.Meme
-  <br />
-  <br />
   <a href="https://github.com//Four-Meme/Four-Smart-Contracts/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
   <a href="https://github.com//Four-Meme/Four-Smart-Contracts/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
@@ -19,11 +16,8 @@
 [![license](https://img.shields.io/github/license/dec0dOS/amazing-github-template.svg?style=flat-square)](LICENSE)
 
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/dec0dOS/amazing-github-template/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-
+# Four.Meme 🐸
 </div>
-
-# Four.Meme Contracts 🐸
-
 Welcome to the Four.Meme smart contract repository! This repository contains the Solidity contracts used for creating, managing, and trading tokens within the Four.Meme ecosystem, including token creation, liquidity pools, fair launches, and vesting mechanisms.
 
 ## About
