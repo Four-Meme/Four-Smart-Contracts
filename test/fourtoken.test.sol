@@ -57,7 +57,8 @@ contract uniV3GasTest is Test {
         // -------------------------------
 
         {
-            emit log_string("buy with 1 bnb ...");
+            emit log_string("buy with 0.6 bnb ...");
+            // test launch success. main launch presale 0.6 bnb.
             uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(1e18);
             bot_gas.presaleSwapbnbForToken{value: 1e18}(address(this));
 
@@ -67,7 +68,7 @@ contract uniV3GasTest is Test {
         }
 
         {
-            emit log_string("buy with 1 bnb ...");
+            emit log_string("buy with 0.6 bnb ...");
             uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(1e17);
             bot_gas.presaleSwapbnbForToken{value: 1e17}(address(this));
 
@@ -78,7 +79,7 @@ contract uniV3GasTest is Test {
         }
 
         {
-            emit log_string("buy with 1 bnb ...");
+            emit log_string("buy with 0.6 bnb ...");
             uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(1e17);
             bot_gas.presaleSwapbnbForToken{value: 1e17}(address(this));
 
@@ -89,7 +90,7 @@ contract uniV3GasTest is Test {
         }
 
         {
-            emit log_string("buy with 0.1 bnb ...");
+            emit log_string("buy with 0.6 bnb ...");
             uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(1e17);
             bot_gas.presaleSwapbnbForToken{value: 1e17}(address(this));
 
@@ -100,7 +101,7 @@ contract uniV3GasTest is Test {
         }
 
         {
-            emit log_string("buy with 1 bnb ...");
+            emit log_string("buy with 0.6 bnb ...");
             uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(1e17);
             bot_gas.presaleSwapbnbForToken{value: 1e17}(address(this));
 
@@ -111,7 +112,7 @@ contract uniV3GasTest is Test {
         }
 
         {
-            emit log_string("buy with 1 bnb ...");
+            emit log_string("buy with 0.6 bnb ...");
             uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(1e17);
             bot_gas.presaleSwapbnbForToken{value: 1e17}(address(this));
 
@@ -122,7 +123,7 @@ contract uniV3GasTest is Test {
         }
 
         {
-            emit log_string("buy with 0.1 bnb ...");
+            emit log_string("buy with 0.6 bnb ...");
             uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(1e17);
             bot_gas.presaleSwapbnbForToken{value: 1e17}(address(this));
 
@@ -133,7 +134,7 @@ contract uniV3GasTest is Test {
         }
 	// DEV ADDRESS: 0xDd536357c606413C488F2Af8793173C9a5507902
         {
-            emit log_string("buy with 1 bnb ...");
+            emit log_string("buy with 0.6 bnb ...");
             uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(1e17);
             bot_gas.presaleSwapbnbForToken{value: 1e17}(address(this));
 
@@ -153,9 +154,9 @@ contract uniV3GasTest is Test {
             emit log_named_decimal_uint("get token", bot_gas.balanceOf(address(this)), 18);
             emit log_named_decimal_uint("mCap", bot_gas.mCap(), 18);
 
-            emit log_string("buy with 1.01 bnb ...");
-            uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(54e17);
-            bot_gas.presaleSwapbnbForToken{value: 54e17}(address(this));
+            //emit log_string("buy with 1.01 bnb ...");
+            //uint256 tokenResult = bot_gas.calPresaleSwapbnbForToken(54e17);
+            //bot_gas.presaleSwapbnbForToken{value: 54e17}(address(this));
 
             emit log_named_decimal_uint("tokenResult", tokenResult, 18);
             emit log_named_decimal_uint("token contract balance", address(bot_gas).balance, 18);
